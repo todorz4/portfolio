@@ -42,3 +42,14 @@ function redirect6(){
 }
 
 blok6.addEventListener('click',redirect6);
+
+var blok7 = document.querySelector('#projekat7');
+function redirect7(){
+    window.location.href="https://expensetracker-erhsg4bfhghdf5g0.westeurope-01.azurewebsites.net/";
+}
+
+blok7.addEventListener('click',redirect7);
+
+
+
+
