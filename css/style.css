@@ -37,10 +37,14 @@ span{
     
 }
 
-#slika{
-    width:80%;
-    height:80%;
+#slika {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;      /* seče višak, ne rasteže */
+    border-radius: 12px;    /* blago zaobljeni uglovi */
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
+
 #slikeProject{
     width:80%;
     height:80%;
@@ -191,4 +195,5 @@ span{
     font-size: 24px;
     color: white;
     margin-top: 20px;
+
 }
